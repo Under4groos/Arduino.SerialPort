@@ -28,7 +28,7 @@ namespace Arduino.SerialPort.Visual
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-           
+             
             serialPort.ReadTimeout = 4000;
             serialPort.WriteTimeout = 4000;
             serialPort.Encoding = Encoding.UTF8;
